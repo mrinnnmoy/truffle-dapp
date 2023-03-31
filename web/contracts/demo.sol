@@ -5,7 +5,7 @@ pragma solidity 0.8.19;
 contract demo{
     uint number;
     function set(uint _number) public {
-        number=_number;
+        number=_number + 1;
     }
     function get() public view returns(uint){
         return number;
